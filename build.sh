@@ -71,7 +71,7 @@
     --enable-version3
 
 echo 'Making'
-make
+make -j8
 
 # Install the libraries into the PREFIX folder
 echo 'Installing'
